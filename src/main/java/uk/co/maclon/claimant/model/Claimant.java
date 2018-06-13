@@ -10,28 +10,30 @@ import java.time.LocalDate;
 @ToString
 @EqualsAndHashCode
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor
 @Getter
 @Document
 public class Claimant {
     @Id
     private String id;
     @NonNull
-    private final String nino;
+    private String nino;
     @NonNull
-    private final LocalDate dateOfBirth;
+    private LocalDate dateOfBirth;
     @NonNull
-    private final Title title;
+    private Title title;
     @NonNull
-    private final String firstName;
+    private String firstName;
     @NonNull
-    private final String lastName;
+    private String lastName;
+
     private String middleName;
     @NonNull
-    private final Gender gender;
+    private Gender gender;
     @NonNull
-    private final RelationshipStatus relationshipStatus;
+    private RelationshipStatus relationshipStatus;
     @NonNull
-    private final Boolean hasPartner;
+    private Boolean hasPartner;
     @NonNull
-    private final Boolean hasSavings;
+    private Boolean hasSavings;
 }
