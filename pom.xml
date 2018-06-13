@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>uk.co.maclon</groupId>
-	<artifactId>webFluxDemo</artifactId>
+	<artifactId>claimantService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>webFluxDemo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>claimantService</name>
+	<description>Spring Boot Starter</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -36,7 +36,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.18</version>
+			<version>1.18.0</version>
 		</dependency>
 
 		<dependency>
