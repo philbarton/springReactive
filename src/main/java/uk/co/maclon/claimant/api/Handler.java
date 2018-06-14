@@ -9,8 +9,6 @@ import reactor.core.publisher.Mono;
 import uk.co.maclon.claimant.model.Claimant;
 import uk.co.maclon.claimant.repository.ClaimantRepository;
 
-import java.util.Optional;
-
 @Component
 public class Handler {
     private ClaimantRepository repository;

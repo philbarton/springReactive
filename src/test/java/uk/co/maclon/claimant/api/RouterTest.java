@@ -17,7 +17,7 @@ public class RouterTest {
     private WebTestClient webClient;
 
     @Test
-    public void get() throws Exception {
+    public void get() {
         webClient.get().uri("/api/claimants")
                 .exchange()
                 .expectStatus()
